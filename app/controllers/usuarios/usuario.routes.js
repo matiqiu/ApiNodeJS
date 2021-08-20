@@ -24,7 +24,7 @@ const getUsuario = async (req, res) => {
     }
 }
 
-app.post('/api/login/', LoginUsuario)
+//app.post('/api/login/', LoginUsuario)
 app.get("/api/usuarios", getUsuarios)
 app.get("/api/usuarios/:usuario", getUsuario)
 
